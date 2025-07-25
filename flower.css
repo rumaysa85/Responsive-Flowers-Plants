@@ -1,0 +1,14 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #333333;
+}
+
+.banner-hero-image {
+
+    background-image: url('/assets/hero-flower.png'); /* Placeholder for hero-flower.png */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
