@@ -49,3 +49,10 @@ body{
         background-position: center;
         background-repeat: no-repeat;
 }
+
+.new-join-bg {
+            background-image: url('/assets/news-letter-bg.png'); /* Placeholder for news-letter-bg.png */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
