@@ -7,14 +7,14 @@ body{
 
 .banner-hero-image {
 
-    background-image: url('/assets/hero-flower.png'); 
+    background-image: url('./assets/hero-flower.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .flower-lover-main-image {
-            background-image: url('/assets/flower-store.png'); 
+            background-image: url('./assets/flower-store.png'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -32,26 +32,26 @@ body{
 
 
 .deal-image-1 {
-        background-image: url('/assets/deal-bloom.png');
+        background-image: url('./assets/deal-bloom.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         }
 .deal-image-2 {
-        background-image: url('/assets/deal-ana.png'); 
+        background-image: url('./assets/deal-ana.png'); 
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 }
 .deal-image-3 {
-        background-image: url('/assets/deal-zabo.png'); 
+        background-image: url('./assets/deal-zabo.png'); 
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 }
 
 .new-join-bg {
-            background-image: url('/assets/news-letter-bg.png'); 
+            background-image: url('./assets/news-letter-bg.png'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
