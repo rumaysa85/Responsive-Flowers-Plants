@@ -213,20 +213,21 @@
     </section>
 
     <!-- Flower & Plants Lover Section -->
-    <section class="py-16 md:py-24 bg-white rounded-lg m-4">
+    <section class="py-16 md:py-24 ">
+
         <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
-            <!-- Image with badge -->
-            <div class="w-full lg:w-1/2 relative h-64 md:h-96 flower-lover-main-image rounded-lg">
-                
-                <img src="./assets/trusted-badge.png" alt="Badge" class="absolute top-4 right-4 w-30 h-10 lg:block hidden animate-spin-infinite">
+            
+            <div class="w-full lg:w-1/2 relative">
+                <div class="h-[450px] w-full overflow-hidden flower-lover-main-image relative z-0">
+                    </div>
+                <img src="./assets/trusted-badge.png" alt="" class="absolute -top-16 -right-16 w-36 h-36 z-10 hidden sm:block animate-spin">
             </div>
-            <!-- Content (Title and Unordered List) -->
-            <div class="w-full lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0 lg:pl-12">
-                <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6 text-gray-800">
-                    Flower & Plants</span> Lover
+
+            <div class="w-full lg:w-1/2 text-center lg:text-left mt-16 lg:mt-0 lg:pl-12">
+                <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-gray-800">
+                    Flower & Plants <br> Lover
                 </h2>
-                <ul class="list-disc list-inside text-lg text-gray-600 space-y-3 text-left">
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <ul class="list-disc text-lg text-gray-600 space-y-3 pl-5">
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -236,20 +237,18 @@
     </section>
 
         <!-- Latest Deals Section -->
-    <section class="py-16 md:py-24 bg-gray-50 rounded-lg m-4">
+    <section class="py-16 md:py-24 rounded-lg m-4">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-800">
-                <span class="text-green-600">Latest</span> Deals
+                <span class="text-orange-600">Latest</span> Deals
             </h2>
             <p class="text-lg text-center text-gray-600 mb-12">
                 Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
             </p>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <!-- Left Column -->
                 <div class="flex flex-col gap-8"> 
                     <div class="relative rounded-lg overflow-hidden h-48 deal-image-1 flex items-center justify-center text-white font-bold text-xl">
-                        <!-- 60% Off Monstera -->
                         <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center text-white">
                             <span class="text-2xl font-bold">60% Off | Monstera</span>
                             <button class="underline text-white font-bold py-3 px-6 rounded-full transition duration-300 hover:text-orange-300 mt-4">
@@ -258,21 +257,16 @@
                         </div>
                     </div>
                     <div class="relative rounded-lg overflow-hidden h-48 deal-image-2 flex items-center justify-center text-white font-bold text-xl">
-                        <!--  30% Off Aloe Plant -->
                         <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center text-white">
                             <span class="text-2xl font-bold">30% Off | Aloe Plant</span>
                             <button class="underline text-white font-bold py-3 px-6 rounded-full transition duration-300 hover:text-orange-300 mt-4">
                             Shop Now
                             </button>
                         </div>
-                        
-                        
                     </div>
                 </div>
 
-                <!-- Right Column for larger deal -->
-                <div class="relative rounded-lg overflow-hidden h-96 deal-image-3 flex flex-col items-center justify-center text-white">
-                    <!-- Placeholder for 25% Off Zabo Plant -->
+                <div class="relative rounded-lg overflow-hidden h-[416px] deal-image-3 flex flex-col items-center justify-center text-white">
                     <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center">
                         <span class="text-4xl font-bold mb-4">25% Off | Zabo Plant</span>
                         <button class="underline text-white font-bold py-3 px-6 rounded-full transition duration-300 hover:text-orange-300">
@@ -283,10 +277,9 @@
             </div>
         </div>
     </section>
-    
     <!-- Join Section -->
 
-    <section class="py-16 md:py-24 new-join-bg rounded-lg m-4 text-white text-center flex items-center justify-center">
+    <section class="py-16 md:py-24 new-join-bg text-white text-center flex items-center justify-center min-h-[533px]">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl md:text-4xl font-bold mb-6">Join the colorful Bunch</h2>
             <div class="flex flex-col sm:flex-row justify-center items-center max-w-lg mx-auto">
@@ -301,21 +294,18 @@
             </div>
         </div>
     </section>
-
         <!-- Footer -->
     
     <footer class="bg-white-100 py-10">
         <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            <!-- Logo and Description -->
-            <div class="col-span-1 md:col-span-3 lg:col-span-1 text-center md:text-left">
-                <img src="./assets/logo.png" alt="Fresh Flowers Logo" class="h-30 w-30 rounded-full mx-auto md:mx-0 mb-4">
+            <div class="col-span-1 md:col-span-3 lg:col-span-1 text-left">
+                <img src="./assets/logo.png" alt="Fresh Flowers Logo" class="h-30 w-30 rounded-full mb-4">
                 <p class="text-gray-600 text-sm">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop.
                 </p>
             </div>
 
-            <!-- Quick Links -->
-            <div class="col-span-1 text-center md:text-left">
+            <div class="col-span-1 text-left">
                 <h4 class="font-bold text-gray-800 text-lg mb-4">Quick Links</h4>
                 <ul class="space-y-2 text-sm">
                     <li><a href="" class="text-gray-600 hover:text-gray-800 transition duration-200">Home</a></li>
@@ -326,8 +316,7 @@
                 </ul>
             </div>
 
-            <!-- Features/Policies -->
-            <div class="col-span-1 text-center md:text-left">
+            <div class="col-span-1 text-left">
                 <h4 class="font-bold text-gray-800 text-lg mb-4">Features</h4>
                 <ul class="space-y-2 text-sm">
                     <li><a href="" class="text-gray-600 hover:text-gray-800 transition duration-200">Features</a></li>
@@ -338,10 +327,9 @@
                 </ul>
             </div>
 
-            <!-- Social Media Icons -->
-            <div class="col-span-1 text-center md:text-left">
+            <div class="col-span-1 text-left">
                 <h4 class="font-bold text-gray-800 text-lg mb-4">Social Media</h4>
-                <div class="flex justify-center md:justify-start space-x-4">
+                <div class="flex justify-start space-x-4">
                     <a href="https://linkedin.com/your-profile" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-200">
                         <img src="./assets/icon-linkedin.png" alt="LinkedIn" class="h-6 w-6">
                     </a>
@@ -359,7 +347,6 @@
         </div>
         
     </footer>
-
                 
 
 </body>
